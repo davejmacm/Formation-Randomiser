@@ -15,7 +15,7 @@ h2{
 }
 
 .wall{
-  margin-top: 1.4rem;
+  margin-top: 1.1rem;
 }
 
 .number-tiles{
@@ -27,7 +27,7 @@ h2{
   text-align: center;
   height: 4.4rem;
   background: rgba(0,0,0,0.5);
-  margin: 1.8rem;
+  margin: 1.6rem;
 }
 
 .number{
@@ -38,6 +38,8 @@ h2{
 .button-area{
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .randomise-button{
@@ -45,7 +47,8 @@ h2{
   color: white;
   font-family: fifa;
   font-size: 3em;
-  margin:25px;
+  text-shadow: 2px 2px #999;
+  margin:1.4rem;
   padding: 1rem 2rem 1rem 2rem;
   cursor: pointer;
  
@@ -55,6 +58,15 @@ h2{
   display: flex;
   justify-content: space-around;
   text-shadow: 3px 3px #999;
+}
+
+@media (min-width: 1570px) {
+  .wall {
+    margin-top: 2rem;
+  }
+  .NumBox {
+    margin: 1.6rem;
+  }
 }
 
 @media (max-width: 850px) {
