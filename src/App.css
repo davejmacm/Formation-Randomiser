@@ -1,3 +1,23 @@
-.App {
+.body{
+  font-family: Fifa, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.wall{
+  display: flex;
+  flex-direction: column;
+  height: calc(80% - 1rem);
+}
+.number-tiles{
+align-content: center
+}
+.number{
+  color: white;
+}
+
+.NumBox {
   text-align: center;
+  height: 3rem;
+  width: calc(100% - 20px);
+  background: rgba(0,0,0,0.5);
+  margin: 1rem;
 }
