@@ -21,7 +21,6 @@ class FormationBox extends Component {
 
     randomise() {
         var strikerNum = Math.floor(Math.random() * 11);
-        console.log(strikerNum);
         var forwardNum = Math.floor(Math.random() * (11-strikerNum));
         var midNum = Math.floor(Math.random() * (11-strikerNum-forwardNum));
         var defNum = (10-strikerNum-forwardNum-midNum);
@@ -43,6 +42,10 @@ render(){
         </div>
         <div className="button-area">
             <Button randomise = {this.randomise}/>
+        </div>
+        <div className="title">
+        <h1> Formation  </h1>
+        <h1> Randomiser </h1>
         </div>
         </div>
     )

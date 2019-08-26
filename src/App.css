@@ -2,6 +2,13 @@
   font-family: Fifa, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   
 }
+
+h1{
+  font-size: 4.5em;
+  color: white;
+  margin: 0;
+  margin-left:.2rem;
+}
 h2{
   font-size: 4em;
   margin: 0;
@@ -19,7 +26,6 @@ h2{
 .NumBox {
   text-align: center;
   height: 4.4rem;
-  width: calc(100% - 40px);
   background: rgba(0,0,0,0.5);
   margin: 1.8rem;
 }
@@ -37,4 +43,10 @@ h2{
 .randomise-button{
   width:200px;
   margin:75px;
+}
+
+.title{
+  display: flex;
+  justify-content: space-around;
+  text-shadow: 3px 3px #999;
 }
