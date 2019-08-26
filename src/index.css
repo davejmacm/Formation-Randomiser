@@ -1,14 +1,10 @@
 body {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/45/Football_field.svg);
+  background-image: url(/images/pitch.jpg);
   background-attachment: fixed;
-  background-size: 50rem;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  height: 100vh;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Fifa, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

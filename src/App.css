@@ -1,23 +1,40 @@
 .body{
   font-family: Fifa, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  
+}
+h2{
+  font-size: 4em;
+  margin: 0;
 }
 
 .wall{
+  margin-top: 1.4rem;
+}
+
+.number-tiles{
   display: flex;
   flex-direction: column;
-  height: calc(80% - 1rem);
+  }
+
+.NumBox {
+  text-align: center;
+  height: 4.4rem;
+  width: calc(100% - 40px);
+  background: rgba(0,0,0,0.5);
+  margin: 1.8rem;
 }
-.number-tiles{
-align-content: center
-}
+
 .number{
   color: white;
 }
 
-.NumBox {
-  text-align: center;
-  height: 3rem;
-  width: calc(100% - 20px);
-  background: rgba(0,0,0,0.5);
-  margin: 1rem;
+
+.button-area{
+  display: flex;
+  justify-content: center;
+}
+
+.randomise-button{
+  width:200px;
+  margin:75px;
 }
