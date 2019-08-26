@@ -41,12 +41,93 @@ h2{
 }
 
 .randomise-button{
-  width:200px;
-  margin:75px;
+  background-color: green;
+  color: white;
+  font-family: fifa;
+  font-size: 3em;
+  margin:25px;
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+ 
 }
 
 .title{
   display: flex;
   justify-content: space-around;
   text-shadow: 3px 3px #999;
+}
+
+@media (max-width: 850px) {
+  .title h1{
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .title{
+    display: none;
+  }
+}
+
+
+/* football icon */
+
+.icon-wrapper {
+  width: 200px;
+  height: 200px;
+  background: green;
+  padding: 2.5em;
+  margin: 2em auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cls-1,
+.cls-2,
+.cls-3 {
+  fill: none;
+  stroke: #fff;
+}
+
+.cls-1 {
+  stroke-miterlimit: 22.93;
+  stroke-width: 2px;
+}
+
+.cls-2,
+.cls-3 {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cls-2 {
+  stroke-width: 1.5px;
+}
+
+.cls-3 {
+  stroke-width: 2px;
+}
+
+.icon-wrapper #air {
+  stroke-dashoffset: 66;
+  stroke-dasharray: 33;
+  transition: all 2s ease;
+}
+
+.icon-wrapper:hover #air {
+  stroke-dashoffset: 0;
+}
+
+.icon-wrapper #ball {
+  transition: all 1.5s ease;
+  transform: rotate(0);
+  transform-origin: center;
+}
+
+.icon-wrapper:hover #ball {
+  transform: rotate(360deg);
 }
