@@ -43,8 +43,11 @@ h2{
 }
 
 .randomise-button{
+  display: flex;
   background-color: green;
+  height:2em;
   color: white;
+  border-style: none; 
   font-family: fifa;
   font-size: 3em;
   text-shadow: 2px 2px #999;
@@ -85,11 +88,14 @@ h2{
 /* football icon */
 
 .icon-wrapper {
-  width: 200px;
-  height: 200px;
+  position: relative;
+  top:-1.15em;
+  left: 1.1em;
+  width: 1.8em;
+  height: 1.8em;
   background: green;
-  padding: 2.5em;
-  margin: 2em auto;
+  padding: 0.5em;
+  margin: 0.4em auto;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -130,7 +136,7 @@ h1 {
   transition: all 2s ease;
 }
 
-.icon-wrapper:hover #air {
+.randomise-button:hover #air {
   stroke-dashoffset: 0;
 }
 
@@ -140,6 +146,6 @@ h1 {
   transform-origin: center;
 }
 
-.icon-wrapper:hover #ball {
+.randomise-button:hover #ball {
   transform: rotate(360deg);
 }

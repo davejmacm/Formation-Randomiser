@@ -1,4 +1,5 @@
 import React from 'react'
+import FootballIcon from './footballIcon'
 
 const Button = ({ randomise }) => {
   return (
@@ -7,6 +8,7 @@ const Button = ({ randomise }) => {
       onClick={randomise}
     >
         Randomise
+        <FootballIcon/>
     </button>
   )
 }
