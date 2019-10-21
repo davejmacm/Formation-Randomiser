@@ -47,15 +47,23 @@ h2{
   background-color: green;
   height:2em;
   color: white;
-  border-style: none; 
   font-family: fifa;
   font-size: 3em;
   text-shadow: 2px 2px #999;
   margin:1.4rem;
   padding: 1rem 2rem 1rem 2rem;
   cursor: pointer;
- 
+
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
+
+.randomise-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  }
 
 .title{
   display: flex;
