@@ -20,7 +20,7 @@ class FormationBox extends Component {
     }
 
     randomise() {
-        var strikerNum = Math.floor(Math.random() * 11);
+        var strikerNum = Math.floor(Math.random() * 10);
         var forwardNum = Math.floor(Math.random() * (11-strikerNum));
         var midNum = Math.floor(Math.random() * (11-strikerNum-forwardNum));
         var defNum = (10-strikerNum-forwardNum-midNum);
